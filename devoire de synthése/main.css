@@ -1,0 +1,158 @@
+body{
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#logo{
+    width: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(78, 172, 221);
+}
+
+#text_container{
+    width: 630px;
+    display: inline-block;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#horizontal_line{
+    border-left: 5px solid rgb(78, 172, 221);
+}
+
+#text_line{
+    padding-left: 20px;
+}
+
+#container_sandwich_img{
+    display: inline-block;
+    margin-bottom: -100px;
+    margin-left: 60px
+}
+
+#sandwich_img{
+    width: 500px;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+}
+
+.foods{
+    width: 320px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 30px
+}
+
+#foods1{
+    margin-left: -30px
+}
+
+.bon_apetit{
+    position: relative;
+    bottom: 15px;
+}
+
+#foods_container{
+    display: flex;
+    justify-content: center;
+}
+
+.foods_imgs{
+    width: 200px;
+    height: 150px;
+}
+
+.input_quantiy{
+    background-color: rgb(78, 172, 221);
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+    position: relative;
+    top: -11px;
+    width: 190px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.verif{
+    display: none;
+}
+
+button{
+    background-color: white;
+    border: 1px solid rgb(78, 172, 221);
+    color: rgb(78, 172, 221);
+    width: 160px;
+    height: 40px;
+    border-radius: 7px;
+}
+
+button:hover{
+    background-color: rgb(78, 172, 221);
+    color: white;
+}
+
+#table{
+    display: flex;
+    justify-content: center;
+}
+
+#facture, .th, .td{
+    padding: 0px 15px;
+    border: 2px solid rgb(78, 172, 221);
+    border-collapse:collapse;
+    text-align: center;
+    color: rgb(78, 172, 221);
+}
+
+.facture_section{
+    display: flex;
+    justify-content: center;
+}
+
+#reglage{
+    text-align: center;
+    display: none;
+}
+
+hr{
+    border: 5px solid rgb(78, 172, 221);
+}
+
+.social_logos{
+    width: 60px;
+    margin-left: 10%;
+    opacity: 60%;
+}
+
+.social_logos:hover{
+    opacity: 100%;
+}
+
+#social_logo1{
+    margin-left: 1%;
+}
+
+footer{
+    text-align: center;
+}

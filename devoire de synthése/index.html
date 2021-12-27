@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>FOOD</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <header>
+        <nav>
+            <li><img  id="logo" src="img/logo.png" alt="" srcset=""></li>
+            <ul>
+                <li><a href="#section_1">ACCEUIL</a></li>
+                <li><a href="#section_2">MENU</a></li>
+                <li><a href="#footer">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <br><br><br><br><br>
+        <div id="section_1" class="section_1">
+            <div id="container">
+            <div id="text_container">
+                <h1>Notre Spécialité</h1>
+                <p>Le hamburger a pour origine le steak de Hambourg, spécialité culinaire notamment servie dans du pain brioché comme plat
+                     roboratif des ouvriers dans les cantines allemandes. Ce steak de bœuf haché est le principal plat servi à bord des bateaux de la HAPAG,
+                      la ligne maritime qui relie Hambourg à New York.
+                </p>
+                      <div id="horizontal_line">
+                          <p id="text_line">C'est ainsi grâce aux vagues successives de l'immigration européenne sur le Nouveau Monde au xixe siècle que le hamburger connaît
+                               le succès sur le sol américain.
+                          </p>
+                      </div>
+            </div>
+            <div id="container_sandwich_img">
+                <img id="sandwich_img" src="img/sandwich.png" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+    <div id="section_2">
+        <br>
+        <div id="foods_container">
+            <div id="foods1" class="foods">
+                <img class="foods_imgs" src="img/plat01.png" alt="" srcset="">
+                <h3>Poulet</h3>
+                <h4>Prix: 5500dt</h4>
+                <p>Voici une sélection de nos meilleures recettes au poulet. Il y en a pour tous les gouts.</p>
+                <p class="bon_apetit">Bon Appétit !</p>
+                <input value="0" class="input_quantiy" type="text" name="" id="input_1">
+            </div>
+            <div class="foods">
+                <img class="foods_imgs" src="img/plat02.png" alt="" srcset="">
+                <h3>Sandwich</h3>
+                <h4>Prix: 3500dt</h4>
+                <p>Voici une sélection de nos meilleures recettes au poulet. Il y en a pour tous les gouts.</p>
+                <p class="bon_apetit">Bon Appétit !</p>
+                <input value="0" class="input_quantiy" type="text" name="" id="input_2">
+            </div>
+            <div class="foods">
+                <img class="foods_imgs" src="img/plat03.png" alt="" srcset="">
+                <h3>Hamburger</h3>
+                <h4>Prix: 7000dt</h4>
+                <p>Voici une sélection de nos meilleures recettes au poulet. Il y en a pour tous les gouts.</p>
+                <p class="bon_apetit">Bon Appétit !</p>
+                <input value="0" class="input_quantiy" type="text" name="" id="input_3">
+            </div>
+        </div>
+        <br><br>
+        <div id="table">
+            <table>
+                <tr>
+                    <td>Nom et prénom</td>
+                    <td><input placeholder="Malek Maghraoui" id="username" type="text"></td>
+                    <td class="verif" id="usernameVerif">only your name</td>
+                </tr>
+                <tr>
+                    <td>Numéro de télephone</td>
+                    <td><input placeholder="(+216)12345678" type="tel" name="" id="phone" ></td>
+                    <td class="verif" id="phoneVerif">Only your phone number</td>
+                </tr>
+                <tr>
+                    <td>Ville</td>
+                    <td>
+                        <select class="custom-select" name="" id="select">
+                            <option selected>Veuiller choisir votre ville..</option>
+                            <option value="1">Tunis</option>
+                            <option value="2">Ariana</option>
+                            <option value="3">Béja</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr><td><br></td><td><br></td></tr>
+                <tr><td><button id="btn">Commander</button></td></tr>
+            </table>
+        </div>
+        <br><br><br><br><br><br>
+        <div id="reglage">
+            <div class="facture_section">
+                <br><br>
+                <h1 class="bye" id="title"></h1>
+                <table id="facture">
+                    <tr>
+                        <th class="th">Plat</th>
+                        <th class="th">Prix Unitaire</th>
+                        <th class="th">Quantité</th>
+                        <th class="th">Prix Total</th>
+                    </tr>
+                    <tr>
+                        <td class="td">Poulet</td>
+                        <td class="td">5500dt</td>
+                        <td class="td" id="quantity_1"></td>
+                        <td class="td"></td>
+                    </tr>
+                    <tr>
+                        <td class="td">Sandwich</td>
+                        <td class="td">3500dt</td>
+                        <td class="td" id="quantity_2"></td>
+                        <td class="td"></td>
+                    </tr>
+                    <tr">
+                        <td class="td">Hamburger</td>
+                        <td class="td">7000dt</td>
+                        <td class="td" id="quantity_3"></td>
+                        <td class="td"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td style="text-align: end;">Total:</td>
+                        <td class="td" id="quantity_4"></td>
+                        <td class="td" id="total"></td>
+                    </tr>
+                </table>
+            </div>
+            <h1 class="bye">Merci Pour votre Confiance...</h1>
+        </div>
+    </div>
+    </main>
+    <footer id="footer">
+        <br><br><hr><br><br>
+        <a href="#"><img id="social_logo1" class="social_logos" src="img/fb.png"></a>
+        <a href="#"><img class="social_logos" src="img/tw.png" alt="" srcset=""></a>
+        <a href="#"><img class="social_logos" src="img/ins.png" alt="" srcset=""></a>
+        <a href="#"><img class="social_logos" src="img/web.png" alt="" srcset=""></a>
+        <br><br><br><br>
+    </footer>
+    <script src='main.js'></script>
+</body>
+</html>
